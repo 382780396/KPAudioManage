@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2635F93BF295D906135D8A25 /* libPods-KPAudioManageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3F74B3EC898575269E9514 /* libPods-KPAudioManageTests.a */; };
+		284E673B3B79E23570538D48 /* libPods-KPAudioManage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7147DD89DC43E3544461B86 /* libPods-KPAudioManage.a */; };
 		769973081E5A90F20074C798 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 769973071E5A90F20074C798 /* main.m */; };
 		7699730B1E5A90F20074C798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7699730A1E5A90F20074C798 /* AppDelegate.m */; };
 		7699730E1E5A90F20074C798 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7699730D1E5A90F20074C798 /* ViewController.m */; };
@@ -15,6 +17,9 @@
 		769973161E5A90F20074C798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769973141E5A90F20074C798 /* LaunchScreen.storyboard */; };
 		769973211E5A90F20074C798 /* KPAudioManageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 769973201E5A90F20074C798 /* KPAudioManageTests.m */; };
 		7699732C1E5A90F20074C798 /* KPAudioManageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7699732B1E5A90F20074C798 /* KPAudioManageUITests.m */; };
+		7699733E1E5A91400074C798 /* KPAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7699733B1E5A91400074C798 /* KPAudioManager.m */; };
+		7699733F1E5A91400074C798 /* QuestionVoiceProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 7699733D1E5A91400074C798 /* QuestionVoiceProgress.m */; };
+		9BF432B29E06631009262ACD /* libPods-KPAudioManageUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C26F983A903DBB67D38E742 /* libPods-KPAudioManageUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073E712D8DDB47F5ADCF5614 /* Pods-KPAudioManageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KPAudioManageUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KPAudioManageUITests/Pods-KPAudioManageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A3F74B3EC898575269E9514 /* libPods-KPAudioManageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KPAudioManageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69EA4E07B33DFF3312021463 /* Pods-KPAudioManageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KPAudioManageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KPAudioManageUITests/Pods-KPAudioManageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C26F983A903DBB67D38E742 /* libPods-KPAudioManageUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KPAudioManageUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		769973031E5A90F20074C798 /* KPAudioManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPAudioManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		769973071E5A90F20074C798 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		769973091E5A90F20074C798 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,15 @@
 		769973271E5A90F20074C798 /* KPAudioManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KPAudioManageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7699732B1E5A90F20074C798 /* KPAudioManageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPAudioManageUITests.m; sourceTree = "<group>"; };
 		7699732D1E5A90F20074C798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7699733A1E5A91400074C798 /* KPAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAudioManager.h; sourceTree = "<group>"; };
+		7699733B1E5A91400074C798 /* KPAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAudioManager.m; sourceTree = "<group>"; };
+		7699733C1E5A91400074C798 /* QuestionVoiceProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionVoiceProgress.h; sourceTree = "<group>"; };
+		7699733D1E5A91400074C798 /* QuestionVoiceProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionVoiceProgress.m; sourceTree = "<group>"; };
+		857C9A0B7D8CB94A996B6142 /* Pods-KPAudioManageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KPAudioManageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KPAudioManageTests/Pods-KPAudioManageTests.release.xcconfig"; sourceTree = "<group>"; };
+		A286D0BC8AAA3ABA6223FA5C /* Pods-KPAudioManage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KPAudioManage.release.xcconfig"; path = "Pods/Target Support Files/Pods-KPAudioManage/Pods-KPAudioManage.release.xcconfig"; sourceTree = "<group>"; };
+		A7445E136C83D676DB36AC32 /* Pods-KPAudioManage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KPAudioManage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KPAudioManage/Pods-KPAudioManage.debug.xcconfig"; sourceTree = "<group>"; };
+		A937A3AF80B705C3A0EE4880 /* Pods-KPAudioManageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KPAudioManageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KPAudioManageTests/Pods-KPAudioManageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7147DD89DC43E3544461B86 /* libPods-KPAudioManage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KPAudioManage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				284E673B3B79E23570538D48 /* libPods-KPAudioManage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2635F93BF295D906135D8A25 /* libPods-KPAudioManageTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF432B29E06631009262ACD /* libPods-KPAudioManageUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +106,8 @@
 				7699731F1E5A90F20074C798 /* KPAudioManageTests */,
 				7699732A1E5A90F20074C798 /* KPAudioManageUITests */,
 				769973041E5A90F20074C798 /* Products */,
+				A536358E29EC0F19E5B871FC /* Pods */,
+				B29BAA40D1C95263406FDBA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +129,7 @@
 				7699730C1E5A90F20074C798 /* ViewController.h */,
 				7699730D1E5A90F20074C798 /* ViewController.m */,
 				7699730F1E5A90F20074C798 /* Main.storyboard */,
+				769973391E5A91400074C798 /* KPAudioManage */,
 				769973121E5A90F20074C798 /* Assets.xcassets */,
 				769973141E5A90F20074C798 /* LaunchScreen.storyboard */,
 				769973171E5A90F20074C798 /* Info.plist */,
@@ -140,6 +164,40 @@
 			path = KPAudioManageUITests;
 			sourceTree = "<group>";
 		};
+		769973391E5A91400074C798 /* KPAudioManage */ = {
+			isa = PBXGroup;
+			children = (
+				7699733A1E5A91400074C798 /* KPAudioManager.h */,
+				7699733B1E5A91400074C798 /* KPAudioManager.m */,
+				7699733C1E5A91400074C798 /* QuestionVoiceProgress.h */,
+				7699733D1E5A91400074C798 /* QuestionVoiceProgress.m */,
+			);
+			path = KPAudioManage;
+			sourceTree = "<group>";
+		};
+		A536358E29EC0F19E5B871FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7445E136C83D676DB36AC32 /* Pods-KPAudioManage.debug.xcconfig */,
+				A286D0BC8AAA3ABA6223FA5C /* Pods-KPAudioManage.release.xcconfig */,
+				A937A3AF80B705C3A0EE4880 /* Pods-KPAudioManageTests.debug.xcconfig */,
+				857C9A0B7D8CB94A996B6142 /* Pods-KPAudioManageTests.release.xcconfig */,
+				073E712D8DDB47F5ADCF5614 /* Pods-KPAudioManageUITests.debug.xcconfig */,
+				69EA4E07B33DFF3312021463 /* Pods-KPAudioManageUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B29BAA40D1C95263406FDBA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7147DD89DC43E3544461B86 /* libPods-KPAudioManage.a */,
+				4A3F74B3EC898575269E9514 /* libPods-KPAudioManageTests.a */,
+				6C26F983A903DBB67D38E742 /* libPods-KPAudioManageUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 769973301E5A90F20074C798 /* Build configuration list for PBXNativeTarget "KPAudioManage" */;
 			buildPhases = (
+				866B1C95A5B59A266C52F30F /* [CP] Check Pods Manifest.lock */,
 				769972FF1E5A90F20074C798 /* Sources */,
 				769973001E5A90F20074C798 /* Frameworks */,
 				769973011E5A90F20074C798 /* Resources */,
+				6AF270952D2A655F56BCD7A7 /* [CP] Embed Pods Frameworks */,
+				BD87C4585C7687580D88AFA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 769973331E5A90F20074C798 /* Build configuration list for PBXNativeTarget "KPAudioManageTests" */;
 			buildPhases = (
+				BC8E9A1926BDA79A4B8773BA /* [CP] Check Pods Manifest.lock */,
 				769973181E5A90F20074C798 /* Sources */,
 				769973191E5A90F20074C798 /* Frameworks */,
 				7699731A1E5A90F20074C798 /* Resources */,
+				E034E9DC30CDA387BA0A68B0 /* [CP] Embed Pods Frameworks */,
+				AC524E2B8717D39ACA6B26B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 769973361E5A90F20074C798 /* Build configuration list for PBXNativeTarget "KPAudioManageUITests" */;
 			buildPhases = (
+				A7A5DA9E69F71A02A442228C /* [CP] Check Pods Manifest.lock */,
 				769973231E5A90F20074C798 /* Sources */,
 				769973241E5A90F20074C798 /* Frameworks */,
 				769973251E5A90F20074C798 /* Resources */,
+				6AC0DF789FF7E6051567FD58 /* [CP] Embed Pods Frameworks */,
+				40B1AC302C829BFD533ABE84 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +335,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40B1AC302C829BFD533ABE84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KPAudioManageUITests/Pods-KPAudioManageUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AC0DF789FF7E6051567FD58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KPAudioManageUITests/Pods-KPAudioManageUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AF270952D2A655F56BCD7A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KPAudioManage/Pods-KPAudioManage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		866B1C95A5B59A266C52F30F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7A5DA9E69F71A02A442228C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC524E2B8717D39ACA6B26B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KPAudioManageTests/Pods-KPAudioManageTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC8E9A1926BDA79A4B8773BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD87C4585C7687580D88AFA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KPAudioManage/Pods-KPAudioManage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E034E9DC30CDA387BA0A68B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KPAudioManageTests/Pods-KPAudioManageTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		769972FF1E5A90F20074C798 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -275,7 +480,9 @@
 			files = (
 				7699730E1E5A90F20074C798 /* ViewController.m in Sources */,
 				7699730B1E5A90F20074C798 /* AppDelegate.m in Sources */,
+				7699733F1E5A91400074C798 /* QuestionVoiceProgress.m in Sources */,
 				769973081E5A90F20074C798 /* main.m in Sources */,
+				7699733E1E5A91400074C798 /* KPAudioManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +629,7 @@
 		};
 		769973311E5A90F20074C798 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7445E136C83D676DB36AC32 /* Pods-KPAudioManage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KPAudioManage/Info.plist;
@@ -433,6 +641,7 @@
 		};
 		769973321E5A90F20074C798 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A286D0BC8AAA3ABA6223FA5C /* Pods-KPAudioManage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KPAudioManage/Info.plist;
@@ -444,6 +653,7 @@
 		};
 		769973341E5A90F20074C798 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A937A3AF80B705C3A0EE4880 /* Pods-KPAudioManageTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KPAudioManageTests/Info.plist;
@@ -456,6 +666,7 @@
 		};
 		769973351E5A90F20074C798 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857C9A0B7D8CB94A996B6142 /* Pods-KPAudioManageTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KPAudioManageTests/Info.plist;
@@ -468,6 +679,7 @@
 		};
 		769973371E5A90F20074C798 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 073E712D8DDB47F5ADCF5614 /* Pods-KPAudioManageUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KPAudioManageUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +691,7 @@
 		};
 		769973381E5A90F20074C798 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EA4E07B33DFF3312021463 /* Pods-KPAudioManageUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KPAudioManageUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
