@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		769973081E5A90F20074C798 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 769973071E5A90F20074C798 /* main.m */; };
+		7699730B1E5A90F20074C798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7699730A1E5A90F20074C798 /* AppDelegate.m */; };
+		7699730E1E5A90F20074C798 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7699730D1E5A90F20074C798 /* ViewController.m */; };
+		769973111E5A90F20074C798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7699730F1E5A90F20074C798 /* Main.storyboard */; };
+		769973131E5A90F20074C798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769973121E5A90F20074C798 /* Assets.xcassets */; };
+		769973161E5A90F20074C798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769973141E5A90F20074C798 /* LaunchScreen.storyboard */; };
+		769973211E5A90F20074C798 /* KPAudioManageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 769973201E5A90F20074C798 /* KPAudioManageTests.m */; };
+		7699732C1E5A90F20074C798 /* KPAudioManageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7699732B1E5A90F20074C798 /* KPAudioManageUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7699731D1E5A90F20074C798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 769972FB1E5A90F20074C798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 769973021E5A90F20074C798;
+			remoteInfo = KPAudioManage;
+		};
+		769973281E5A90F20074C798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 769972FB1E5A90F20074C798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 769973021E5A90F20074C798;
+			remoteInfo = KPAudioManage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		769973031E5A90F20074C798 /* KPAudioManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPAudioManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		769973071E5A90F20074C798 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		769973091E5A90F20074C798 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7699730A1E5A90F20074C798 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7699730C1E5A90F20074C798 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7699730D1E5A90F20074C798 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		769973101E5A90F20074C798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		769973121E5A90F20074C798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		769973151E5A90F20074C798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		769973171E5A90F20074C798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7699731C1E5A90F20074C798 /* KPAudioManageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KPAudioManageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		769973201E5A90F20074C798 /* KPAudioManageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPAudioManageTests.m; sourceTree = "<group>"; };
+		769973221E5A90F20074C798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769973271E5A90F20074C798 /* KPAudioManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KPAudioManageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7699732B1E5A90F20074C798 /* KPAudioManageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPAudioManageUITests.m; sourceTree = "<group>"; };
+		7699732D1E5A90F20074C798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		769973001E5A90F20074C798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769973191E5A90F20074C798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769973241E5A90F20074C798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		769972FA1E5A90F20074C798 = {
+			isa = PBXGroup;
+			children = (
+				769973051E5A90F20074C798 /* KPAudioManage */,
+				7699731F1E5A90F20074C798 /* KPAudioManageTests */,
+				7699732A1E5A90F20074C798 /* KPAudioManageUITests */,
+				769973041E5A90F20074C798 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		769973041E5A90F20074C798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				769973031E5A90F20074C798 /* KPAudioManage.app */,
+				7699731C1E5A90F20074C798 /* KPAudioManageTests.xctest */,
+				769973271E5A90F20074C798 /* KPAudioManageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		769973051E5A90F20074C798 /* KPAudioManage */ = {
+			isa = PBXGroup;
+			children = (
+				769973091E5A90F20074C798 /* AppDelegate.h */,
+				7699730A1E5A90F20074C798 /* AppDelegate.m */,
+				7699730C1E5A90F20074C798 /* ViewController.h */,
+				7699730D1E5A90F20074C798 /* ViewController.m */,
+				7699730F1E5A90F20074C798 /* Main.storyboard */,
+				769973121E5A90F20074C798 /* Assets.xcassets */,
+				769973141E5A90F20074C798 /* LaunchScreen.storyboard */,
+				769973171E5A90F20074C798 /* Info.plist */,
+				769973061E5A90F20074C798 /* Supporting Files */,
+			);
+			path = KPAudioManage;
+			sourceTree = "<group>";
+		};
+		769973061E5A90F20074C798 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				769973071E5A90F20074C798 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7699731F1E5A90F20074C798 /* KPAudioManageTests */ = {
+			isa = PBXGroup;
+			children = (
+				769973201E5A90F20074C798 /* KPAudioManageTests.m */,
+				769973221E5A90F20074C798 /* Info.plist */,
+			);
+			path = KPAudioManageTests;
+			sourceTree = "<group>";
+		};
+		7699732A1E5A90F20074C798 /* KPAudioManageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7699732B1E5A90F20074C798 /* KPAudioManageUITests.m */,
+				7699732D1E5A90F20074C798 /* Info.plist */,
+			);
+			path = KPAudioManageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		769973021E5A90F20074C798 /* KPAudioManage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769973301E5A90F20074C798 /* Build configuration list for PBXNativeTarget "KPAudioManage" */;
+			buildPhases = (
+				769972FF1E5A90F20074C798 /* Sources */,
+				769973001E5A90F20074C798 /* Frameworks */,
+				769973011E5A90F20074C798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KPAudioManage;
+			productName = KPAudioManage;
+			productReference = 769973031E5A90F20074C798 /* KPAudioManage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7699731B1E5A90F20074C798 /* KPAudioManageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769973331E5A90F20074C798 /* Build configuration list for PBXNativeTarget "KPAudioManageTests" */;
+			buildPhases = (
+				769973181E5A90F20074C798 /* Sources */,
+				769973191E5A90F20074C798 /* Frameworks */,
+				7699731A1E5A90F20074C798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7699731E1E5A90F20074C798 /* PBXTargetDependency */,
+			);
+			name = KPAudioManageTests;
+			productName = KPAudioManageTests;
+			productReference = 7699731C1E5A90F20074C798 /* KPAudioManageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		769973261E5A90F20074C798 /* KPAudioManageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769973361E5A90F20074C798 /* Build configuration list for PBXNativeTarget "KPAudioManageUITests" */;
+			buildPhases = (
+				769973231E5A90F20074C798 /* Sources */,
+				769973241E5A90F20074C798 /* Frameworks */,
+				769973251E5A90F20074C798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				769973291E5A90F20074C798 /* PBXTargetDependency */,
+			);
+			name = KPAudioManageUITests;
+			productName = KPAudioManageUITests;
+			productReference = 769973271E5A90F20074C798 /* KPAudioManageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		769972FB1E5A90F20074C798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Rhino;
+				TargetAttributes = {
+					769973021E5A90F20074C798 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7699731B1E5A90F20074C798 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 769973021E5A90F20074C798;
+					};
+					769973261E5A90F20074C798 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 769973021E5A90F20074C798;
+					};
+				};
+			};
+			buildConfigurationList = 769972FE1E5A90F20074C798 /* Build configuration list for PBXProject "KPAudioManage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 769972FA1E5A90F20074C798;
+			productRefGroup = 769973041E5A90F20074C798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				769973021E5A90F20074C798 /* KPAudioManage */,
+				7699731B1E5A90F20074C798 /* KPAudioManageTests */,
+				769973261E5A90F20074C798 /* KPAudioManageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		769973011E5A90F20074C798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769973161E5A90F20074C798 /* LaunchScreen.storyboard in Resources */,
+				769973131E5A90F20074C798 /* Assets.xcassets in Resources */,
+				769973111E5A90F20074C798 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7699731A1E5A90F20074C798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769973251E5A90F20074C798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		769972FF1E5A90F20074C798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699730E1E5A90F20074C798 /* ViewController.m in Sources */,
+				7699730B1E5A90F20074C798 /* AppDelegate.m in Sources */,
+				769973081E5A90F20074C798 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769973181E5A90F20074C798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769973211E5A90F20074C798 /* KPAudioManageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769973231E5A90F20074C798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699732C1E5A90F20074C798 /* KPAudioManageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7699731E1E5A90F20074C798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 769973021E5A90F20074C798 /* KPAudioManage */;
+			targetProxy = 7699731D1E5A90F20074C798 /* PBXContainerItemProxy */;
+		};
+		769973291E5A90F20074C798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 769973021E5A90F20074C798 /* KPAudioManage */;
+			targetProxy = 769973281E5A90F20074C798 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7699730F1E5A90F20074C798 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				769973101E5A90F20074C798 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		769973141E5A90F20074C798 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				769973151E5A90F20074C798 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7699732E1E5A90F20074C798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7699732F1E5A90F20074C798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		769973311E5A90F20074C798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KPAudioManage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.KPAudioManage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		769973321E5A90F20074C798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KPAudioManage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.KPAudioManage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		769973341E5A90F20074C798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KPAudioManageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.KPAudioManageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KPAudioManage.app/KPAudioManage";
+			};
+			name = Debug;
+		};
+		769973351E5A90F20074C798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KPAudioManageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.KPAudioManageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KPAudioManage.app/KPAudioManage";
+			};
+			name = Release;
+		};
+		769973371E5A90F20074C798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KPAudioManageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.KPAudioManageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KPAudioManage;
+			};
+			name = Debug;
+		};
+		769973381E5A90F20074C798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KPAudioManageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.KPAudioManageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KPAudioManage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		769972FE1E5A90F20074C798 /* Build configuration list for PBXProject "KPAudioManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7699732E1E5A90F20074C798 /* Debug */,
+				7699732F1E5A90F20074C798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769973301E5A90F20074C798 /* Build configuration list for PBXNativeTarget "KPAudioManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769973311E5A90F20074C798 /* Debug */,
+				769973321E5A90F20074C798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		769973331E5A90F20074C798 /* Build configuration list for PBXNativeTarget "KPAudioManageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769973341E5A90F20074C798 /* Debug */,
+				769973351E5A90F20074C798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		769973361E5A90F20074C798 /* Build configuration list for PBXNativeTarget "KPAudioManageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769973371E5A90F20074C798 /* Debug */,
+				769973381E5A90F20074C798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 769972FB1E5A90F20074C798 /* Project object */;
+}
